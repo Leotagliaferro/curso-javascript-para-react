@@ -1,12 +1,9 @@
-
-function vsPlayer() {
+function VsPlayer(content = "vs" ) {
     return `
-    <h1 class=vs-player>
-        <img src="images/vs-player.png" alt="logo vs player">
-    </h1>        
+        <span class="vs-player">${content}</span>
+    
     
     `
     
 }
-
-export default vsPlayer
+export default VsPlayer
