@@ -1,10 +1,13 @@
-function PlayerScore (points = 0) {
-    return `
-    <ol data-*points="${points}">
-        <li>Um</li>
-        <li>Dois</li>
-        <li>Três</li>
+import "./style.css";
+
+function PlayerScore(points = 0) {
+  return /* html */ `
+    <ol class="player-score" data-points="${points}">
+      <li class="pointer">Um</li>
+      <li class="pointer">Dois</li>
+      <li class="pointer">Três</li>
     </ol>
-    `;
+  `;
 }
-export default PlayerScore
+
+export default PlayerScore;
